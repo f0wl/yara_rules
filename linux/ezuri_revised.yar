@@ -3,8 +3,6 @@ rule EzuriLoader_revised : LinuxMalware {
     meta:
         author = "Marius 'f0wL' Genheimer, https://dissectingmalwa.re"
         description = "Detects Ezuri Golang Loader/Crypter"
-        copyright = "AT&T Cybersecurity 2020"
-        copyright = "Marius 'f0wL' Genheimer"
         reference = "https://cybersecurity.att.com/blogs/labs-research/malware-using-new-ezuri-memory-loader"
         date = "09.01.2021"
         tlp = "WHITE"
