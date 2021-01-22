@@ -7,7 +7,7 @@ rule GermanWiper : ransomware {
     hash1 = "41364427dee49bf544dcff61a6899b3b7e59852435e4107931e294079a42de7c" 
 
   strings: 
-    $a1 = "C:\Bewerbung-Lena-Kretschmer.exe" fullword ascii 
+    $a1 = "C:\\Bewerbung-Lena-Kretschmer.exe" fullword ascii 
     $a2 = "Copyright VMware." fullword ascii
     $a3 = "Friction Tweeter Casting Transferability" fullword ascii
     $a4 = "expandingdelegation.top" fullword ascii
