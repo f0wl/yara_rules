@@ -17,8 +17,15 @@ rule EzuriLoader_revised : LinuxMalware {
         $a3 = "crypto/cipher.NewCFBDecrypter"
         $a4 = "/proc/self/fd/%d"
         $a5 = "/dev/null"
+        
+        // Additionally match on AES constants/SBox as proposed by @DuchyRE
+        // https://en.wikipedia.org/wiki/Rijndael_S-box
+        $aes = {A5 63 63 C6 84 7C 7C F8}
+        $sbox = {63 7C 77 7B F2 6B 6F C5 30 01 67 2B FE D7 AB 76}
 
     condition:
-        uint32(0) == 0x464c457f and
-        filesize < 20MB and all of ($a*)
-} 
+        uint32(0) == 0x464c457f 
+        and filesize < 20MB 
+        and all of ($a*)
+        and $aes and $sbox
+}
