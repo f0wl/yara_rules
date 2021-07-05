@@ -3,7 +3,7 @@ rule revil_linux : Ransomware {
     meta:
         author = "Marius 'f0wL' Genheimer, https://dissectingmalwa.re"
         description = "Detects the Linux version of REvil Ransomware with ESXI capabilities"
-        reference = "https://cybersecurity.att.com/blogs/labs-research/malware-using-new-ezuri-memory-loader"
+        reference = "https://cybersecurity.att.com/blogs/labs-research/revils-new-linux-version"
         date = "05.07.2021"
         tlp = "WHITE"
         hash1 = "3d375d0ead2b63168de86ca2649360d9dcff75b3e0ffa2cf1e50816ec92b3b7d"
