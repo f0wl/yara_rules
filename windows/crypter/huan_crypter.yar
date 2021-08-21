@@ -9,6 +9,7 @@ rule CRYPTER_Huan {
       tlp = "WHITE"
       
    strings:
+      $s0 = ".huan" fullword ascii
       $s1 = "[+] Imported DLL Name: " fullword ascii
       $s2 = "[+] Binary is running" fullword ascii
       $s3 = "[+] All headers are copied" fullword ascii
