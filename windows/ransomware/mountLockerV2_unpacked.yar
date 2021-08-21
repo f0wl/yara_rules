@@ -6,7 +6,7 @@ rule RANSOM_MountLocker_V2 {
   description = "Detects Mount Locker Ransomware, Version 2 x86 unpacked" 
   author = "Marius 'f0wL' Genheimer <hello@dissectingmalwa.re>" 
   reference = "https://dissectingmalwa.re/between-a-rock-and-a-hard-place-exploring-mount-locker-ransomware.html" 
-  date = "20.12.2020"
+  date = "2020-12-20"
   tlp = "WHITE"
   hash1 = "226a723ffb4a91d9950a8b266167c5b354ab0db1dc225578494917fe53867ef2"
   hash2 = "e7c277aae66085f1e0c4789fe51cac50e3ea86d79c8a242ffc066ed0b0548037"
