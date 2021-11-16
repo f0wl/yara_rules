@@ -1,7 +1,7 @@
 rule EzuriLoader_revised : LinuxMalware {
 
     meta:
-        author = "Marius 'f0wL' Genheimer, https://dissectingmalwa.re"
+        author = "Marius 'f0wL' Genheimer <hello@dissectingmalwa.re>"
         description = "Detects Ezuri Golang Loader/Crypter"
         reference = "https://cybersecurity.att.com/blogs/labs-research/malware-using-new-ezuri-memory-loader"
         date = "2021-01-09"

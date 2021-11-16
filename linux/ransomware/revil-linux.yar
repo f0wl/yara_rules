@@ -1,7 +1,7 @@
 rule revil_linux : Ransomware {
 
     meta:
-        author = "Marius 'f0wL' Genheimer, https://dissectingmalwa.re"
+        author = "Marius 'f0wL' Genheimer <hello@dissectingmalwa.re>"
         description = "Detects the Linux version of REvil Ransomware with ESXI capabilities"
         date = "2021-07-05"
         reference = "https://cybersecurity.att.com/blogs/labs-research/revils-new-linux-version"

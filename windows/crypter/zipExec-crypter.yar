@@ -1,7 +1,7 @@
 rule zipExec : WindowsMalware {
    
    meta:
-      author = "Marius 'f0wL' Genheimer, https://dissectingmalwa.re"
+      author = "Marius 'f0wL' Genheimer <hello@dissectingmalwa.re>"
       description = "Detects zipExec Golang Loader/Crypter"
       reference = "https://github.com/Tylous/ZipExec"
       date = "2021-10-29"
