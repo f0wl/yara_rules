@@ -41,3 +41,13 @@ A collection of yara rules that I created during analysis / for blog posts
     * 2.2 [Ransomware](https://github.com/f0wl/yara_rules/tree/main/linux/ransomware)
 
         * 2.2.1 [revil_linux.yar](https://github.com/f0wl/yara_rules/blob/main/linux/ransomware/revil_linux.yar)
+
+3. [Other](https://github.com/f0wl/yara_rules/tree/main/other)
+
+    * 3.1 [ESXi](https://github.com/f0wl/yara_rules/tree/main/other/ESXi)
+
+        * 3.1.1 [esxi_commands_ransomware.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXi/esxi_commands_ransomware.yar)
+
+        * 3.1.2 [blackmatter_linux_encryptor.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXi/blackmatter_linux_encryptor.yar)
+
+        * 3.1.3 [blackmatter_linux_decryptor.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXo/blackmatter_linux_decryptor.yar)
