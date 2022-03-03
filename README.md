@@ -50,4 +50,4 @@ A collection of yara rules that I created during analysis / for blog posts
 
         * 3.1.2 [blackmatter_linux_encryptor.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXi/blackmatter_linux_encryptor.yar)
 
-        * 3.1.3 [blackmatter_linux_decryptor.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXo/blackmatter_linux_decryptor.yar)
+        * 3.1.3 [blackmatter_linux_decryptor.yar](https://github.com/f0wl/yara_rules/blob/main/other/ESXi/blackmatter_linux_decryptor.yar)
